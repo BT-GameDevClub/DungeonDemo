@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Character {
-    GameObject charModel;
-    Rigidbody physics;
+    public readonly GameObject charModel;
+    readonly Rigidbody physics;
 
     public Character (GameObject model) {
         charModel = model;

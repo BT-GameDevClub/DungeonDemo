@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{3F35455F-24AC-2F5C-D43A-6EC49C89E2A1}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/temp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraClass.cs">
     <Files>
-      <File FileName="Assets/Scripts/Character.cs" Line="13" Column="9" />
-      <File FileName="Assets/Scripts/InputManager.cs" Line="11" Column="2" />
-      <File FileName="Assets/temp.cs" Line="14" Column="3" />
+      <File FileName="Assets/Scripts/Character.cs" Line="12" Column="25" />
+      <File FileName="Assets/Scripts/Inputs.cs" Line="14" Column="30" />
+      <File FileName="Assets/Scripts/CameraClass.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
