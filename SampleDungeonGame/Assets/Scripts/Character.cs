@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character
+public class Character : Inputs
 {
     public static Transform bullet;
-    public static GameObject charModel;
+    public GameObject charModel;
     readonly Rigidbody physics;
     readonly float shootTime;
     readonly float shootDelay;
@@ -33,8 +33,7 @@ public class Character
     {
         if ((Time.time - shootTime) > shootDelay)
         {
-
-            //Transform obj = GameObject.Instantiate(bullet, charModel.transform.position, new Quaternion());
+            Transform obj = Instantiate(bullet, charModel.transform.position, new Quaternion());
         }
     }
 }
